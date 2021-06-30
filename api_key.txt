@@ -1,0 +1,4 @@
+openweathermap
+angiee
+API_KEY = ab427a4ef316df912aa8a386e9ce3e86
+
