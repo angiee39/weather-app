@@ -5,43 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/20d8a00417.js" crossorigin="anonymous"></script>
   <title>Weather App</title>
 </head>
 <body>
 
   <header>
-    <h1>Weather App</h1>
+    <h1><i class="fas fa-cloud-sun-rain"></i></i>WeatherApp</h1>
   </header>
 
-
   <div id="content">
-
-    <form id="form" action="">
-      <label for="metric">Select Metric</label>
-      <br>
-      <select name="metric" id="metric">
-        <option value="f">Fahrenheit</option>
-        <option value="c">Celcius</option>
-      </select>
-      <br><br>
-      <label for="location">Select Location</label>
-      <br>
-      <input id="location" type="text">
-      <button>Enter</button>
+    <form class="form" id="form" action="">
+      <div class="form-control">
+        <label for="metric">Select Metric</label>
+        <select name="metric" id="metric">
+          <option value="f">Fahrenheit</option>
+          <option value="c">Celcius</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label for="location">Enter Location</label>
+        <input id="location" type="text">
+      </div>
+      <button>Submit</button>
     </form>
-
     <br>
-    <div id="city">
-      City:
-    </div>
-    <div id="temp">
-      Temperature:
-    </div>
-    <div id="weather">
-      Weather:
+    <div id="card" class="flex hide">
+      <div>
+        <div id="city">
+        </div>
+        <div id="temp">
+        </div>
+        <div id="weather">
+        </div>
+      </div>
+      <div>
+        <div id="weather-icon">
+        </div>
+      </div>
     </div>
   </div>
-
 
   <script src="script.js"></script>
 </body>

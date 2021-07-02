@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+}
+
+#content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+  color: #f0f0f0;
+  text-shadow: 1px 2px 2px #000000;
+}
+
+#metric {
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+}
+
+#location {
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+}
+
+button {
+  padding: 5px;
+  font-size: 14px;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+}
+
+#city {
+  font-size: 30px;
+}
+
+#temp {
+  font-size: 40px;
+}
+
+#weather {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+#weather-icon {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#card {
+  margin-top: 10px;
+  padding: 20px 5px;
+  border: black solid 2px;
+  box-shadow: 5px 5px 7px 1px #1C6EA4;
+  background-color: chartreuse;
+  width: fit-content;
+}
+
+.form-control {
+  margin-bottom: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+	margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 20px;
+	padding: 2px;
+  width: 200px;
+}
+
+.form-control select {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 2px;
+}
+
+.hide {
+  display: none;
+}
