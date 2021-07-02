@@ -8,7 +8,7 @@ let sign = ""
 let description = ""
 
 async function getWeatherInfo(location) {
-  const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=ab427a4ef316df912aa8a386e9ce3e86`)
+  const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=ab427a4ef316df912aa8a386e9ce3e86`)
   const weatherData = await response.json()
   
   const absTemp = weatherData.main.temp
